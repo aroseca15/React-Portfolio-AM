@@ -1,4 +1,69 @@
-.App {
+/* .App {
   text-align: center;
+} */
+.home{
+background-image: url('./assets/images/finger-pointing-at-javascript-code.jpg');
 }
 
+.jumbotron{
+  background-color:lightblue
+}
+
+.navbar{
+  
+  background-color: darkcyan;
+  font-family: Arial, Helvetica, sans-serif;
+  color: black;
+}
+
+#body{
+background-color: rgba(210, 180, 140, 0.572);
+
+
+  }
+
+  #personalIcons{
+      margin: 3%;
+      text-align: center;
+      margin-bottom: auto;
+      background-color:rgba(210, 180, 140, 0);
+    } 
+
+
+#contactform{
+  margin-top: 7%;
+
+}
+
+#submit {
+  color: white;
+}
+
+#row2{
+margin-top: 8%;
+}
+
+.card-body{
+background-color: blanchedalmond;
+}
+
+#aboutmetext{
+ font-size: 130%
+}
+
+.lead1{
+  font-size: 2rem;
+}
+
+#h1 {
+  font-size: 4rem;
+}
+
+#jumP {
+font-size: 3rem;
+}
+
+#aboutmetext {
+  font-size: 1.8rem;
+  font-weight: 600;
+}
