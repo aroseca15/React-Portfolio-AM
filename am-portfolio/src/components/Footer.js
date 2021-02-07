@@ -14,7 +14,7 @@ function Footer (){
                 src="https://img.icons8.com/officel/60/000000/set-as-resume.png" alt="aroseca15Resume" /></a>
 
             <a href="https://www.linkedin.com/in/amanda-macdonald-/" target="_blank" rel= "noreferrer"><img
-                src="assets/images/Designbolts-Hand-Stitched-LinkedIn.ico" height="50px" width="auto" alt="aroseca15Linkedin" /></a>
+                src="./assets/images/Designbolts-Hand-Stitched-LinkedIn.ico" height="50px" width="auto" alt="aroseca15Linkedin" /></a>
           </div>
         </div>
       </section>
