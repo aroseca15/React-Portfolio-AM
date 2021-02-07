@@ -23,7 +23,7 @@ function About() {
                     </p>
                 </div>
             </div>
-            <div className='row'>
+            {/* <div className='row'>
                 <image></image>
                 <p>Hello World!</p>
             </div>
@@ -50,7 +50,7 @@ function About() {
             </div>
             <div className='row'>
                 <p>Hello World!</p>
-            </div>
+            </div> */}
         </div>
 
 
