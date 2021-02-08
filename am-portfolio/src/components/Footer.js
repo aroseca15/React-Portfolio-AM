@@ -1,6 +1,6 @@
 function Footer (){
   return(
-<section className='container-fluid' id="personalIcons">
+<section className='container-fluid' style={ { height: 100 } } id="personalIcons">
         <div className="row justify-content-center align-items-center">
           <div className="col-fluid-12">
             <a href="https://github.com/aroseca15" target="_blank" rel= "noreferrer"><img src="https://img.icons8.com/bubbles/100/000000/github.png" alt="aroseca15" /></a>

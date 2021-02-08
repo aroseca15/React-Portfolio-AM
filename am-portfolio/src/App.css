@@ -20,11 +20,19 @@ background-image: url('./assets/images/finger-pointing-at-javascript-code.jpg');
 background-color: rgba(210, 180, 140, 0.572);
   }
 
-  .card{
-    max-width: 38rem;
+  #introHome{
+    color: black;
+    font-weight: 600;
+    background-color: rgba(255, 245, 238, 0.905);
     font-family: Georgia, 'Times New Roman', Times, serif;
-    margin-left: 35%;      
-    margin-right: 20%;
+  }
+
+  .card{
+    max-width: 100rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: x-large;
+    margin-left: 30%;      
+    margin-right: 25%;
     background-color:rgba(255, 245, 238, 0.906);
   }
 
