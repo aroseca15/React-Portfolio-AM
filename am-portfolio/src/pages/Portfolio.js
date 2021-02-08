@@ -1,13 +1,88 @@
 
 function Portfolio() {
     return (
-<main>
-    <section>
-        <div>
-            <h1>Welcome to the portfolio!!</h1>
-        </div>
-    </section>
-</main>
+        <main>
+            <section className='row justify-content-center'>
+                <div>
+                    <h1 className="display-3 col align-self-center">Check Out My Work!</h1>
+                </div>
+            </section>
+            <section className='row justify-content-center'>
+                <div>
+                    <h3 className='col align-self-center'>Here you will find examples of my code projects. Happy Exploring!!! </h3>
+                </div>
+            </section>
+            <section className='row'>
+                <div class="col-lg-4 col-sm-4">
+                    <div class="card" style={{ width: '18rem' }}>
+                        <img src="" class="card-img-top" alt="Password Generator"></img>
+                        <div class="card-body">
+                            <h5 class="card-title">Password_Generator</h5>
+                            <p class="card-text">Generate a Safe Password!</p>
+                            <a href=" https://aroseca15.github.io/Password_Generator_HW3/" target="_blank" class="btn btn-success">Click Here</a>
+                            <a href="https://github.com/aroseca15/Password_Generator_HW3" target="_blank" class="btn btn-primary">Git Hub</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-4">
+                    <div class="card" style={{ width: '18rem' }}>
+                        <img src="./assets/images/Project1_Pic.png" class="card-img-top" alt="..."></img>
+                        <div class="card-body">
+                            <h5 class="card-title">Disater Preparedness</h5>
+                            <p class="card-text">Get all of the information you need for every type of Natural Disater in the USA!</p>
+                            <a href="https://aroseca15.github.io/Disaster-Ready/" target="_blank" class="btn btn-success">Click Here</a>
+                            <a href="https://github.com/aroseca15/Disaster-Ready" target="_blank" class="btn btn-primary">Git Hub</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-4">
+                    <div class="card" style={{ width: '18rem' }}>
+                        <img src="./assets/images/Day__Planner.png" class="card-img-top" alt="..."></img>
+                        <div class="card-body">
+                            <h5 class="card-title">Day Planner</h5>
+                            <p class="card-text">Planning Your Day Just Got Easier!</p>
+                            <a href="https://aroseca15.github.io/Work_Day_Planner/" target="_blank" class="btn btn-success">Click Here</a>
+                            <a href="https://github.com/aroseca15/Work_Day_Planner" target="_blank" class="btn btn-primary">Git Hub</a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section className='row'>
+                <div class="col-lg-4 col-sm-4">
+                    <div class="card" style={{ width: '18rem' }}>
+                        <img src="/assets/images/P2_Screenshot.png" class="card-img-top" alt="..."></img>
+                        <div class="card-body">
+                            <h5 class="card-title">Manageer ERP</h5>
+                            <p class="card-text">MVP Employee Management App</p>
+                            <a href="https://polar-dawn-89598.herokuapp.com/" target="_blank" class="btn btn-success">Click Here</a>
+                            <a href="https://github.com/poserposer13/Demeter-Project" target="_blank" class="btn btn-primary">Git Hub</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-4">
+                    <div class="card" style={{ width: '18rem' }}>
+                        <img src="/assets/images/fitness_tracker.png" class="card-img-top" alt="..."></img>
+                        <div class="card-body">
+                            <h5 class="card-title">Fitness Tracker</h5>
+                            <p class="card-text">Great way to log and develop your fitness routine.</p>
+                            <a href="https://amac-fitness-tracker.herokuapp.com/" target="_blank" class="btn btn-success">Click Here</a>
+                            <a href='https://github.com/aroseca15/fitness_tracker' target="_blank" class="btn btn-primary">Git Hub</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-4">
+                    <div class="card" style={{ width: '18rem' }}>
+                        <img src="/assets/images/Coming SoonA.png" class="card-img-top" alt="..."></img>
+                        <div class="card-body">
+                            <h5 class="card-title">Coming Soon!</h5>
+                            <p class="card-text">Space for future accomplishments.</p>
+                            <a href="#" target="_blank" class="btn btn-success">Click Here</a>
+                            <a href="#" target="_blank" class="btn btn-primary">Git Hub</a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main >
     )
 }
 
