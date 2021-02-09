@@ -5,8 +5,13 @@
 background-image: url('./assets/images/finger-pointing-at-javascript-code.jpg');
 }
 
-.jumbotron{
-  background-color:lightblue
+#row1{
+margin-top: 20px;
+margin-bottom: 40px;
+}
+
+#homeCard{
+  margin-top: 5px;
 }
 
 .navbar{
