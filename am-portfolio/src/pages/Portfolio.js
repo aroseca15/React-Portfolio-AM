@@ -1,7 +1,12 @@
-
+import PassGen from '../assets/images/Password_Generator.png';
+import DPrep from '../assets/images/Project1_Pic.png';
+import DayP from '../assets/images/Day__Planner.png';
+import P2 from '../assets/images/P2_Screenshot.png';
+import FitnT from '../assets/images/fitness_tracker.png';
+import comeS from '../assets/images/Coming SoonA.png';
 function Portfolio() {
     return (
-        <main>
+        <main className='container'>
             <section className='row justify-content-center'>
                 <div>
                     <h1 className="display-3 col align-self-center">Check Out My Work!</h1>
@@ -14,8 +19,8 @@ function Portfolio() {
             </section>
             <section className='row'>
                 <div class="col-lg-4 col-sm-4">
-                    <div class="card" style={{ width: '18rem' }}>
-                        <img src="" class="card-img-top" alt="Password Generator"></img>
+                    <div  id= 'portCards' class="card" style={{ width: '18rem' }}>
+                        <img src={PassGen} class="card-img-top" alt="Password Generator"></img>
                         <div class="card-body">
                             <h5 class="card-title">Password_Generator</h5>
                             <p class="card-text">Generate a Safe Password!</p>
@@ -25,8 +30,8 @@ function Portfolio() {
                     </div>
                 </div>
                 <div class="col-lg-4 col-sm-4">
-                    <div class="card" style={{ width: '18rem' }}>
-                        <img src="./assets/images/Project1_Pic.png" class="card-img-top" alt="..."></img>
+                    <div  id= 'portCards' class="card" style={{ width: '18rem' }}>
+                        <img src={DPrep} class="card-img-top" alt="..."></img>
                         <div class="card-body">
                             <h5 class="card-title">Disater Preparedness</h5>
                             <p class="card-text">Get all of the information you need for every type of Natural Disater in the USA!</p>
@@ -36,8 +41,8 @@ function Portfolio() {
                     </div>
                 </div>
                 <div class="col-lg-4 col-sm-4">
-                    <div class="card" style={{ width: '18rem' }}>
-                        <img src="./assets/images/Day__Planner.png" class="card-img-top" alt="..."></img>
+                    <div  id= 'portCards' class="card" style={{ width: '18rem' }}>
+                        <img src={DayP} class="card-img-top" alt="..."></img>
                         <div class="card-body">
                             <h5 class="card-title">Day Planner</h5>
                             <p class="card-text">Planning Your Day Just Got Easier!</p>
@@ -49,8 +54,8 @@ function Portfolio() {
             </section>
             <section className='row'>
                 <div class="col-lg-4 col-sm-4">
-                    <div class="card" style={{ width: '18rem' }}>
-                        <img src="/assets/images/P2_Screenshot.png" class="card-img-top" alt="..."></img>
+                    <div id= 'portCards' class="card" style={{ width: '18rem' }}>
+                        <img src={P2} class="card-img-top" alt="..."></img>
                         <div class="card-body">
                             <h5 class="card-title">Manageer ERP</h5>
                             <p class="card-text">MVP Employee Management App</p>
@@ -60,8 +65,8 @@ function Portfolio() {
                     </div>
                 </div>
                 <div class="col-lg-4 col-sm-4">
-                    <div class="card" style={{ width: '18rem' }}>
-                        <img src="/assets/images/fitness_tracker.png" class="card-img-top" alt="..."></img>
+                    <div  id= 'portCards' class="card" style={{ width: '18rem' }}>
+                        <img src={FitnT} class="card-img-top" alt="..."></img>
                         <div class="card-body">
                             <h5 class="card-title">Fitness Tracker</h5>
                             <p class="card-text">Great way to log and develop your fitness routine.</p>
@@ -71,8 +76,8 @@ function Portfolio() {
                     </div>
                 </div>
                 <div class="col-lg-4 col-sm-4">
-                    <div class="card" style={{ width: '18rem' }}>
-                        <img src="/assets/images/Coming SoonA.png" class="card-img-top" alt="..."></img>
+                    <div  id= 'portCards' class="card" style={{ width: '18rem' }}>
+                        <img src={comeS} class="card-img-top" alt="..."></img>
                         <div class="card-body">
                             <h5 class="card-title">Coming Soon!</h5>
                             <p class="card-text">Space for future accomplishments.</p>

@@ -41,6 +41,10 @@ background-color: rgba(210, 180, 140, 0.572);
     background-color:rgba(255, 245, 238, 0.906);
   }
 
+  #portCards{
+    background-color: cadetblue;
+  }
+
 #jumpTo{
   margin-left: 30%;
   font-size: large;
@@ -70,11 +74,7 @@ margin-top: 8%;
 }
 
 .card-body{
-background-color: blanchedalmond;
-}
-
-#aboutmetext{
- font-size: 130%
+background-color: rgba(211, 211, 211, 0.878);
 }
 
 .lead1{
