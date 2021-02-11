@@ -28,7 +28,7 @@ function Home() {
                     </div>
                 </div>
             </section>
-
+{/* Below is a picture that I have not decided where to go yet: */}
             {/* <section className='row align-items-center'>
                 <div className='col justify-content-end'>
                     <img style={{ width: '18rem' }} src={SanFran}></img>
