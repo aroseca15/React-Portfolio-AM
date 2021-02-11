@@ -9,7 +9,8 @@
   "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "cd am-portfolio && npm start"
+    "start": "cd am-portfolio && npm start",
+    "build": "cd am-portfolio && npm run build"
   },
   "repository": {
     "type": "git",

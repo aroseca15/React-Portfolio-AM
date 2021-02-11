@@ -22,7 +22,7 @@ function App() {
       <Footer />
     </main>
   </BrowserRouter>);
-  // return React.createElement('div', null, React.createElement('h1', {className: "App"}, 'Hi, this is the start of my professional portfolio. Getting educated.'));
+  
 }
 
 export default App;
