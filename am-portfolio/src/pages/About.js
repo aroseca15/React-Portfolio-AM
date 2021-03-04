@@ -1,6 +1,6 @@
 import React from 'react';
 import profilePic from '../assets/images/Profile Pic.jpg';
-
+// Used <br /> for a temporary CSS fix to maintain structure. Without complicating the style.css file
 function About() {
     return (
 
@@ -23,34 +23,6 @@ function About() {
                     </p>
                 </div>
             </div>
-            {/* <div className='row'>
-                <image></image>
-                <p>Hello World!</p>
-            </div>
-            <div className='row'>
-                <p>Hello World!</p>
-            </div>
-            <div className='row'>
-                <p>Hello World!</p>
-            </div>
-            <div className='row'>
-                <p>Hello World!</p>
-            </div>
-            <div className='row'>
-                <p>Hello World!</p>
-            </div>
-            <div className='row'>
-                <p>Hello World!</p>
-            </div>
-            <div className='row'>
-                <p>Hello World!</p>
-            </div>
-            <div className='row'>
-                <p>Hello World!</p>
-            </div>
-            <div className='row'>
-                <p>Hello World!</p>
-            </div> */}
         </div>
 
 

@@ -3,7 +3,7 @@ import resume from '../assets/Resumes and Other/Web_Resume01192021.pdf'
 
 
 
-
+// Icons that redirect to all needed links and documents
 function Footer (){
   return(
 <section className='container-fluid' style={ { height: 100 } } id="personalIcons">

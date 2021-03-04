@@ -1,5 +1,6 @@
 import React from 'react';
 
+// Navbar as the Header
 function Header() {
     return (
         <nav className="navbar navbar-expand-lg">

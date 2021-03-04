@@ -21,13 +21,6 @@ function Contact() {
                             <input type="text" className="form-control" id="validationDefault03" required></input>
                         </div>
                     </div>
-                    <div className="form-group">
-                        {/* <div className="form-check">
-                            <input className="form-check-input" type="checkbox" id="invalidCheck2" required></input>
-                            <label className="form-check-label" for="invalidCheck2">
-                                Agree to terms and conditions</label>
-                        </div> */}
-                    </div>
                     <button className="btn btn-primary" type="submit"><a href="mailto:aroseca15@gmail.com" id="submit">Contact Me</a></button>
                 </form>
             </div>
